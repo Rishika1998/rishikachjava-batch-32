@@ -1,6 +1,6 @@
 package week1;
 //assignment 4 question 4
-public class MyFinal
+final class MyFinal
 {
     protected final int a=30;
     int b;
