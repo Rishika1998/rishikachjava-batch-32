@@ -1,13 +1,12 @@
 package week1;
 //assignment 4 question 4
-final class MyFinal
+public final class MyFinal
 {
-    protected final int a=30;
+    private final int a=30;
     int b;
 
 
-    public final int add(int b) {
-        this.b = b;
+    public final int add(int c) {
         return a + b;
 
     }
