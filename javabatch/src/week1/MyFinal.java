@@ -6,7 +6,7 @@ public final class MyFinal
     int b;
 
 
-    public final int add(int c) {
+    public final int add(int b) {
         return a + b;
 
     }
