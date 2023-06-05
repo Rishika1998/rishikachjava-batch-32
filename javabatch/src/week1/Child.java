@@ -2,7 +2,6 @@ package week1;
 
 public class Child extends Parent {
     public int childVar;
-
     public Child(int parentVar, int childVar) {
         super(parentVar);
         this.childVar = childVar;
