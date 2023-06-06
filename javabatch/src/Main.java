@@ -59,7 +59,7 @@ System.out.println("************ WEEK 2 DAY 1 ASSIGNMENTS: *************");
         //System.out.println("reverse number is"+r.reverseNum);
 //week2 day 1
         Age a= new Age();
-        a.PersonAge();
+        a.personAge();
 //week 2 day 1
 fibonacci f=new fibonacci();
 f.fib();
