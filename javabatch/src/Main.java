@@ -1,10 +1,12 @@
 import Week2.*;
+import Week2.Integer;
 import week1.*;
+import Week2.ReverseArray;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
+    public static <reve, Reve, ArrayRev> void main(String[] args) {
         // student file assignement-1
         Student student = new Student();
         student.setName("rishika priya");
@@ -67,5 +69,17 @@ f.fib();
 //week2 day 1
         FizzBuzz fb=new FizzBuzz();
         fb.fib();
+
+//week2 day2
+        System.out.println(" ");
+System.out.println("************** Week2 Day 2***********");
+Integer I=new Integer();
+I.minmax();
+//question 2
+ReverseArray AR=new ReverseArray();
+AR.rev();
+
+
+
     }
 }
