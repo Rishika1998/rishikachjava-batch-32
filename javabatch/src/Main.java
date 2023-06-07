@@ -2,6 +2,8 @@ import Week2.*;
 import Week2.Integer;
 import week1.*;
 import Week2.ReverseArray;
+import Week2.Rotation;
+import java.util.Arrays;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -79,7 +81,15 @@ I.minmax();
 ReverseArray AR=new ReverseArray();
 AR.rev();
 
+System.out.println("");
+//question 3
+ Rotation ro=new Rotation();
+ int rot[]={1,2,3,4,5};
 
-
+ ro.rotate(rot,2);
+ System.out.println("Rotated array:");
+ for(int a2=0;a2<rot.length;a2++){
+     System.out.println(rot[a2]+"");
+ }
     }
 }
