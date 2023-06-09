@@ -3,12 +3,17 @@ import Week2.Integer;
 import week1.*;
 import Week2.ReverseArray;
 import Week2.Rotation;
+
+import java.io.FileNotFoundException;
 import java.util.Arrays;
+import java.lang.NullPointerException;
+
+import static Week2.Stringrotate.stringrot;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static <reve, Reve, ArrayRev> void main(String[] args) {
+    public static <reve, Reve, ArrayRev> void main(String[] args) throws FileNotFoundException {
         // student file assignement-1
         Student student = new Student();
         student.setName("rishika priya");
@@ -89,7 +94,34 @@ System.out.println("");
  ro.rotate(rot,2);
  System.out.println("Rotated array:");
  for(int a2=0;a2<rot.length;a2++){
-     System.out.println(rot[a2]+"");
+     System.out.println(rot[a2]+"");}
+
+     //week2 day 3
+    System.out.println("*******Week 2 day 3********");
+     System.out.print("count vowels:   ");
+     String na="rishikapriya";
+     int count=0;
+     Vowels co=new Vowels();
+     System.out.println(co.ct());
+//week2 day 3 question 2
+System.out.println("Anagrams:");
+Anagram Ana=new Anagram();
+Ana.ana();
+
+//week2 day 3 question 3
+        WordReverse rw=new WordReverse();
+        rw.wore("rishika priya");
+//week2 day 3 question 4
+       String st1="JavaJ2eeStrutsHibernate";
+       String st2="StrutsHibernateJavaJ2ee";
+       if(stringrot(st1,st2)) {
+           System.out.println("true");
+       }else{
+    System.out.println("false");
+       }
+//week2 day 3 question 5
+csv cs=new csv();
+       cs.file();
  }
-    }
+
 }
