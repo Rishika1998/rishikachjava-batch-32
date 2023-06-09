@@ -13,7 +13,7 @@ public class WordReverse {
         }
             revstring = revstring + revwords +" ";
         }
-        System.out.println(" ");
+        System.out.println("");
         System.out.println("original string: "+inputString);
         System.out.println("reverse string: "+revstring);
         }
