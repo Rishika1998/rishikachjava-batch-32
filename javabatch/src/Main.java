@@ -3,6 +3,7 @@ import Week2.Integer;
 import week1.*;
 import Week2.ReverseArray;
 import Week2.Rotation;
+import static java.lang.Integer.parseInt;
 
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -120,7 +121,7 @@ Ana.ana();
     System.out.println("false");
        }
 //week2 day 3 question 5
-csv cs=new csv();
+Csv cs=new Csv();
        cs.file();
  }
 
