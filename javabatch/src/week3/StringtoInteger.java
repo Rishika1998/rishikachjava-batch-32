@@ -10,6 +10,7 @@ public class StringtoInteger {
             String str= sc.nextLine();
 
             int i = Integer.parseInt(str);
+            //System.out.println("");
             System.out.println("String converted to number is :"+i);
 
 
