@@ -23,12 +23,15 @@ import java.util.*;
             for (String slayer : arrayList) {
                 System.out.println(slayer);
             }
+
             System.out.println("******* ITERATOR ********");
             Iterator<String> iterator = arrayList.iterator();
             while (iterator.hasNext()) {
                 String slayer = iterator.next();
                 System.out.println(slayer);
             }
+            int length =arrayList.size();
+            arrayList.remove(length-1);
             System.out.println("********* FOR EACH ********");
             arrayList.forEach(slayer -> System.out.println(slayer));
             System.out.println("******** PARALLEL **********");
