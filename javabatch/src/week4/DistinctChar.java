@@ -21,8 +21,8 @@ public class DistinctChar{
             }
         }
 
-        for(Map.Entry<Character, Integer> news:num.entrySet()){
-            System.out.println(news.getKey()+" "+news.getValue());
+        for(Map.Entry<Character, Integer> newdata:num.entrySet()){
+            System.out.println(newdata.getKey()+" "+newdata.getValue());
         }
 
 
