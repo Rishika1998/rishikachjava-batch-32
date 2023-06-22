@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class DistinctChar{
     public static void main(String[] args) {
-        String numbers = "test string";
-        numbers=numbers.replaceAll(" ","");
-        char[] numb=numbers.toCharArray();
+        String input = "test string";
+        input=input.replaceAll(" ","");
+        char[] numb=input.toCharArray();
 
 
         HashMap<Character, Integer> num=new HashMap<Character, Integer>();
