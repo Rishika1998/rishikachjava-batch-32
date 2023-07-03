@@ -11,7 +11,7 @@ public class WordReverse {
         for (int j=singleword.length()-1;j>=0;j--) {
             revwords = revwords + singleword.charAt(j);
         }
-            revstring = revstring + revwords +" ";
+            revstring = revstring + revwords+" ";
         }
         System.out.println("");
         System.out.println("original string: "+inputString);

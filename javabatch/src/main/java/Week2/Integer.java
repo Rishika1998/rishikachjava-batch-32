@@ -12,11 +12,12 @@ public class Integer {
                 small = numb[i];
             }
             if (numb[i] > large) {
-                large = numb[i];
+                  large = numb[i];
             }
         }
 System.out.println(" ");
         System.out.println("The Smallest number in a given set  is : " + small);
         System.out.println("The Largest number in a given set : " + large);
     }
-}
+
+    }

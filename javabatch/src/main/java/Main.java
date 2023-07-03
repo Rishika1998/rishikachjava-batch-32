@@ -1,13 +1,9 @@
-import Week2.*;
 import Week2.Integer;
+import Week2.*;
 import week1.*;
-import Week2.ReverseArray;
-import Week2.Rotation;
-import static java.lang.Integer.parseInt;
+import week3.StringtoInteger;
 
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.lang.NullPointerException;
 
 import static Week2.Stringrotate.stringrot;
 
@@ -123,6 +119,10 @@ Ana.ana();
 //week2 day 3 question 5
 Csv cs=new Csv();
        cs.file();
+System.out.println("************ Week 3 Day 1 **************");
+//week3 day 1 question 1
+        StringtoInteger sti=new StringtoInteger();
+        sti.test();
  }
 
 }

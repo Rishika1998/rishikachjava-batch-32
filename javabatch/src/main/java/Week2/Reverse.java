@@ -2,8 +2,9 @@ package Week2;
 
 public class Reverse {
 
-    int num=12345;
-    public int reverseNum=0;
+    int num = 12345;
+    public int reverseNum = 0;
+
     public void reverseNum() {
         while (num != 0) {
             int rem = num % 10;
@@ -14,3 +15,4 @@ public class Reverse {
         System.out.println("reverse of a given number is:   " + reverseNum);
     }
 }
+
